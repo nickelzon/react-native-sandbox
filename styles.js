@@ -8,18 +8,35 @@ export default styles = StyleSheet.create({
   },
   heading: {
     marginTop: 50,
+    marginBottom: 20,
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
+    justifyContent: "space-between",
+    // borderWidth: 2,
   },
   title: {
-    fontSize: 30,
+    fontSize: 35,
+    fontWeight: "500",
   },
   input: {
+    marginHorizontal: 10,
     borderRadius: 100 / 2,
     backgroundColor: "#e8e8e8",
-    width: 150,
+    width: 200,
+    height: 30,
     padding: 5,
     textAlign: "center",
+  },
+  featuredImage: {
+    backgroundColor: "#f5f5f5",
+    borderRadius: 18,
+    display: "flex",
+    width: 320,
+  },
+  image: {
+    margin: "auto",
+    width: 150,
+    height: 150,
   },
 });
